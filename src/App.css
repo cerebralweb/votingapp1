@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+:root{
+  --bgColor: azure;
+  --borderColor: cadetblue;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p{
+  margin: 0rem;
+  padding: 1rem 0rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flexContainer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;      
+}
+.center {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.smallPadding {
+  padding: 0rem .5rem;
+}
+.smallMg {
+  margin: .5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap; 
+  width: 80%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+  flex-basis: 100%;  
+  text-align: left;
+}
+.description {
+  flex-basis: 75%;  
+  text-align: justify;
+  flex-grow: 0;
+}
+.votesContainer {
+  display: flex;
+  flex-basis: 3%; 
+  justify-content: center;
+  flex-grow: 0;
+  padding: 1rem 3rem;
+  height: 5rem;
+  
+}
+.votes {     
+  text-align: center;
+  cursor: pointer;
+  background-color: var(--bgColor);
+  border: 2px solid var(--borderColor);
+  height: 2rem;
+  width: 2rem;
 }

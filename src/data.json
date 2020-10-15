@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "title": "Prototype 1",
+    "description": "Now, as the Romance Writers of America reckons with its history of racism, will she finally get her due?",
+    "votes": 20
+
+  },
+  {
+    "id": 2,
+    "title": "Prototype 2",
+    "description": "That voice matches an official photograph from her earlier days, when she was a star editor of romance novels at Dell, then a division of Doubleday, in New York.",
+    "votes": 21
+  },
+  {
+    "id": 3,
+    "title": "Prototype 3",
+    "description": "Stephens is 87 now, under self-imposed lockdown in one of those amenity-rich mid-rise apartment complexes that have sprouted all over Houston, this one just north of Hermann Park, in the Binz area.",
+    "votes": 25
+  }
+]

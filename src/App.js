@@ -1,26 +1,87 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Prototypes from './data.json'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const Data = Prototypes;
+
+class PrototypeCardList extends React.Component {
+
+  state = {
+    prototypes: [],
+  }
+  componentDidMount() {
+    this.setState({prototypes: Data});
+  }
+  increasesVotes = (id) => {
+    this.setState({
+      prototypes: this.state.prototypes.map((obj) => {
+        if(obj.id === id) {
+          return Object.assign({}, obj, {
+            votes: obj.votes + 1
+          });               
+        } else {
+          return obj;
+        }
+        }
+        )    
+  })
+}
+  
+ 
+render() {
+ const prototypes = this.state.prototypes
+ .sort((a,b) => b.votes - a.votes)
+ .map((proto, i) => (
+
+  <PrototypeCard
+  key={i}
+  id={proto.id}
+  title={proto.title}
+  description={proto.description}
+  votes={proto.votes}
+  handleVote={this.increasesVotes}
+  />
+  
+ )) ;
+return (
+  <div className="flexContainer center">
+    {prototypes}   
+  </div>  
+ );
+}
 }
 
-export default App;
+class PrototypeCard extends React.Component {
+  onVoteClick = () => {    
+    this.props.handleVote(this.props.id);
+  }
+ 
+render() {
+ 
+return (
+  <div className="cardContainer">
+    <div className="title smallPadding ">
+      <h1> {this.props.title} </h1>
+    </div>
+    <div className="description smallPadding">
+      <p>
+        {this.props.description}
+      </p>
+    </div>
+    <div className="votesContainer">
+      <button 
+      onClick={this.onVoteClick}
+      className="votes"
+      > 
+      {this.props.votes} 
+      </button>
+    </div>
+  </div>
+);
+}
+}
+
+
+export default PrototypeCardList;
+
+
