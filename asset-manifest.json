@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/votingapp1/static/css/main.5f361e03.chunk.css",
-    "main.js": "/votingapp1/static/js/main.c014b2da.chunk.js",
-    "main.js.map": "/votingapp1/static/js/main.c014b2da.chunk.js.map",
+    "main.css": "/votingapp1/static/css/main.8bafd99e.chunk.css",
+    "main.js": "/votingapp1/static/js/main.ee990cda.chunk.js",
+    "main.js.map": "/votingapp1/static/js/main.ee990cda.chunk.js.map",
     "runtime-main.js": "/votingapp1/static/js/runtime-main.aa1023d8.js",
     "runtime-main.js.map": "/votingapp1/static/js/runtime-main.aa1023d8.js.map",
-    "static/js/2.97dbaa3d.chunk.js": "/votingapp1/static/js/2.97dbaa3d.chunk.js",
-    "static/js/2.97dbaa3d.chunk.js.map": "/votingapp1/static/js/2.97dbaa3d.chunk.js.map",
+    "static/js/2.a9bcfaf8.chunk.js": "/votingapp1/static/js/2.a9bcfaf8.chunk.js",
+    "static/js/2.a9bcfaf8.chunk.js.map": "/votingapp1/static/js/2.a9bcfaf8.chunk.js.map",
     "index.html": "/votingapp1/index.html",
-    "precache-manifest.2d9cf6a6c0d86176999e5ae2716ac060.js": "/votingapp1/precache-manifest.2d9cf6a6c0d86176999e5ae2716ac060.js",
+    "precache-manifest.eeef1e5bcbd37de82cd423523425c704.js": "/votingapp1/precache-manifest.eeef1e5bcbd37de82cd423523425c704.js",
     "service-worker.js": "/votingapp1/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/votingapp1/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.97dbaa3d.chunk.js.LICENSE.txt": "/votingapp1/static/js/2.97dbaa3d.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/votingapp1/static/media/logo.5d5d9eef.svg"
+    "static/css/main.8bafd99e.chunk.css.map": "/votingapp1/static/css/main.8bafd99e.chunk.css.map",
+    "static/js/2.a9bcfaf8.chunk.js.LICENSE.txt": "/votingapp1/static/js/2.a9bcfaf8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.aa1023d8.js",
-    "static/js/2.97dbaa3d.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.c014b2da.chunk.js"
+    "static/js/2.a9bcfaf8.chunk.js",
+    "static/css/main.8bafd99e.chunk.css",
+    "static/js/main.ee990cda.chunk.js"
   ]
 }
