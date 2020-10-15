@@ -1,21 +1,21 @@
 [
   {
     "id": 1,
-    "title": "Prototype 1",
-    "description": "Now, as the Romance Writers of America reckons with its history of racism, will she finally get her due?",
+    "title": "Corruption",
+    "description": "Corruption is a form of dishonesty or criminal offense undertaken by a person or organization entrusted with a position of authority, to acquire illicit benefit or abuse power for one's private gain.",
     "votes": 20
 
   },
   {
     "id": 2,
-    "title": "Prototype 2",
-    "description": "That voice matches an official photograph from her earlier days, when she was a star editor of romance novels at Dell, then a division of Doubleday, in New York.",
+    "title": "They are older",
+    "description": "When Joe Biden climbed to the stage in California to celebrate his Super Tuesday comeback in the Democratic primary, three things happened in a matter of minutes. He basked in the thunderous applause from the crowd. He mistook his wife for his sister. And he delivered the sort of confusing, intermittently slurry, and occasionally indecipherable oration that has defined so many of his recent public appearances.",
     "votes": 21
   },
   {
     "id": 3,
-    "title": "Prototype 3",
-    "description": "Stephens is 87 now, under self-imposed lockdown in one of those amenity-rich mid-rise apartment complexes that have sprouted all over Houston, this one just north of Hermann Park, in the Binz area.",
+    "title": "Almost all of them are white and rich",
+    "description": "Older politicians have had longer to build up donor networks, and older rich people may be more likely to take the risk of self-funding. If Jeff Bezos had quit Amazon to run for president this year, he would have given up years of peak earning and peak productivity in the private sector. ",
     "votes": 25
   }
 ]
