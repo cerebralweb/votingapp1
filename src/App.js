@@ -45,6 +45,7 @@ render() {
  )) ;
 return (
   <div className="flexContainer center">
+    <h1>WHAT IS THE BEST THING OF COCA-COLA? </h1>
     {prototypes}   
   </div>  
  );
